@@ -1,0 +1,50 @@
+[
+  {
+      "description": "Pub/Sub event timestamp",
+      "name": "event_timestamp",
+      "mode": "REQUIRED",
+      "type": "TIMESTAMP"
+  },
+  {
+      "description": "Transaction time string",
+      "name": "tr_time_str",
+      "mode": "REQUIRED",
+      "type": "TIMESTAMP"
+  },
+  {
+      "description": "First name",
+      "name": "first_name",
+      "mode": "NULLABLE",
+      "type": "STRING"
+  },
+  {
+      "description": "Last name",
+      "name": "last_name",
+      "mode": "NULLABLE",
+      "type": "STRING"
+  },
+  {
+      "description": "City",
+      "name": "city",
+      "mode": "NULLABLE",
+      "type": "STRING"
+  },
+  {
+      "description": "State",
+      "name": "state",
+      "mode": "NULLABLE",
+      "type": "STRING"
+  },
+  {
+      "description": "Product",
+      "name": "product",
+      "mode": "NULLABLE",
+      "type": "STRING"
+  },
+  {
+      "description": "Amount of transaction",
+      "name": "amount",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+  }
+]

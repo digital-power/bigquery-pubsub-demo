@@ -1,0 +1,10 @@
+# editor folders
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# python cache files
+*.pyc
+
+# GCP credentials file
+service_account.json
